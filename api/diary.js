@@ -30,7 +30,7 @@ export default async function handler(req, res) {
         'X-Title': 'AI Diary'
       },
       body: JSON.stringify({
-        model: 'google/gemma-3-27b-it:free',
+        model: 'openai/gpt-oss-120b:free',
         stream: false,
         messages: [
           { role: 'system', content: systemPrompt },
