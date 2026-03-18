@@ -30,7 +30,7 @@ export default async function handler(req, res) {
         'X-Title': 'AI Diary'
       },
       body: JSON.stringify({
-        model: 'meta-llama/llama-4-maverick:free',
+        model: 'google/gemma-3-27b-it:free',
         stream: false,
         messages: [
           { role: 'system', content: systemPrompt },
